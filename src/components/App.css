@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.choose-btn {
+  letter-spacing: 0.3pt;
+  appearance: auto;
+  white-space: nowrap;
+  margin-inline-end: 4px;
+  font-size: inherit;
+  -webkit-user-modify: read-only !important;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  margin: 0px;
+  padding: 1px 6px;
+  border-width: 1px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+.upload-file-name-input {
+  border: none;
+  cursor: default;
+  color: inherit;
+  margin-left: 5px;
+}
+
+.upload-file-name-input:focus-visible {
+  outline: none;
+}
+
+/* .upload-file-container {
+  border: 1px solid black
+} */
+
+.new-btn-css {
+  color: #da0a0a;
+}
